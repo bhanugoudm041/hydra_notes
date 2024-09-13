@@ -50,7 +50,9 @@ hydra -L users.txt -P words.txt www.site.com http-head /private/
 # we provide users.txt as files containing users
 # then words.txt as the password file and then we try
 # a basic http authentication by using the http-head parameter
-# then we provide the page /private/ which is the url path
+# then we provide the page /private/ which is the url path on above example url path is set to root / so we havent given any path in below hydra command
+![image](https://github.com/user-attachments/assets/0b8e2e3b-c951-4df8-992b-24575574f44d)
+
 # where we are asked for credentials
 ```
 
