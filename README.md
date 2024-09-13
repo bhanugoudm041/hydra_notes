@@ -41,6 +41,9 @@ Here is a list of common and general flags used with Hydra:
 ### HTTP Basic Authentication
 We can use the following commands for Basic HTTP Authentication, we can
 understand that the authentication is basic from the headers of the response.
+##### Example head based authentication form
+![image](https://github.com/user-attachments/assets/15bf77bb-a515-4d8a-b4a7-8e1f7ba3ebcf)
+
 
 ```sh
 hydra -L users.txt -P words.txt www.site.com http-head /private/
