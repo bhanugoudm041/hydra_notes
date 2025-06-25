@@ -33,7 +33,10 @@ Here is a list of common and general flags used with Hydra:
     single correct credential pair, so as soon as it succeeds it exits, this
     happens per host if we specify -M (so a set of machines)
 * `-F` exits after the first found login/password pair for any host (for usage with -M)
-
+* `^USER^` - user field to bruteforce
+* `^PASS^` - pass field to bruteforce
+* `^USER64^` - it will convert username to base64format from wordlist & bruteforce
+* `^PASS64^` - it will convert password to base64format from wordlist & bruteforce
 
 ## HTTP
 
